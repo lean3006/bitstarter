@@ -1,9 +1,9 @@
-var express = require('express');
+1;3201;0cvar express = require('express');
 
 var app = express.createServer(express.logger());
 var fs = require ('fs');
 
-buf = fs.readFileSync('https://github.com/lean3006/bitstarter/blob/master/index.html');
+buf = fs.readFileSync('index.html');
 
 app.get('/', function(request, response) {
   len=buf.length;
